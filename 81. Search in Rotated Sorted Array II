@@ -1,0 +1,12 @@
+bool search(int* nums, int numsSize, int target) {
+    bool index = false;
+    for (int i = 0; i < numsSize; i++)
+	{
+		if (target == nums[i]) 
+		{ 
+		    index = true;
+		    break;
+		}
+	}
+	return index;
+}
